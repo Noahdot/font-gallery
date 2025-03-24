@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Font Gallery</title>
+  <style>
+    @font-face {
+      font-family: 'Arial';
+      src: url('./fonts/arial.ttf') format('truetype');
+      font-weight: 400;
+      font-style: normal;
+      unicode-range: U+0020-007E, U+00A0-00FF;
+    }
+
+    @font-face {
+      font-family: 'Arial Bold';
+      src: url('./fonts/arial-bold.ttf') format('truetype');
+      font-weight: 700;
+      font-style: normal;
+      unicode-range: U+0020-007E, U+00A0-00FF;
+    }
+
+    @font-face {
+      font-family: 'Source-Han-Sans';
+      src: url('./fonts/NotoSansTC-VariableFont_wght.ttf') format('truetype');
+      font-weight: 100 900;
+      font-style: normal;
+      unicode-range: U+4E00-9FFF;
+    }
+
+    .arial {
+      font-family: 'Arial', 'MySourceHan';
+    }
+
+    .arial-bold {
+      font-family: 'Arial Bold';
+    }
+
+    .noto-sans {
+      font-family: 'Source-Han-Sans';
+    }
+
+  </style>
+</head>
+<body>
+  <div>
+    Font Gallery - Native font
+  </div>
+  <div class="arial">
+    Font Gallery - Arial
+  </div>
+  <div class="arial-bold">
+    Font Gallery - Arial Bold 
+  </div>
+  <div>
+    Font Gallery - 原始中文字體
+  </div>
+  <div class="noto-sans">
+    Font Gallery - 思源黑體
+  </div>
+</body>
+</html>
