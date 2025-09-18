@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Font Gallery</title>
   <style>
+    /* ----- Arial ----- */
     @font-face {
       font-family: 'Arial';
       src: url('./fonts/arial.ttf') format('truetype');
@@ -12,6 +13,12 @@
       font-style: normal;
       unicode-range: U+0020-007E, U+00A0-00FF;
     }
+
+    .arial {
+      font-family: 'Arial', 'MySourceHan';
+    }
+
+    /* ----- Arial Bold ----- */
 
     @font-face {
       font-family: 'Arial Bold';
@@ -21,6 +28,12 @@
       unicode-range: U+0020-007E, U+00A0-00FF;
     }
 
+    .arial-bold {
+      font-family: 'Arial Bold';
+    }
+
+    /* ----- Source Han Sans ----- */
+
     @font-face {
       font-family: 'Source-Han-Sans';
       src: url('./fonts/NotoSansTC-VariableFont_wght.ttf') format('truetype');
@@ -29,16 +42,73 @@
       unicode-range: U+4E00-9FFF;
     }
 
-    .arial {
-      font-family: 'Arial', 'MySourceHan';
-    }
-
-    .arial-bold {
-      font-family: 'Arial Bold';
-    }
-
     .noto-sans {
       font-family: 'Source-Han-Sans';
+    }
+
+    /* ----- pop-gothic extra-light ----- */
+
+    @font-face {
+      font-family: 'pop-gothic extra-light';
+      src: url('./fonts/POP-Gothic/PopGothicCjkTc-ExtraLight.woff2') format('woff2');
+      font-weight: 200;
+      font-style: normal;
+    }
+
+    .pop-gothic-extra-light {
+      font-family: 'pop-gothic extra-light';
+    }
+
+    /* ----- pop-gothic light ----- */
+
+    @font-face {
+      font-family: 'pop-gothic light';
+      src: url('./fonts/POP-Gothic/PopGothicCjkTc-Light.woff2') format('woff2');
+      font-weight: 300;
+      font-style: normal;
+    }
+
+    .pop-gothic-light {
+      font-family: 'pop-gothic light';
+    }
+
+    /* ----- pop-gothic regular ----- */
+
+    @font-face {
+      font-family: 'pop-gothic regular';
+      src: url('./fonts/POP-Gothic/PopGothicCjkTc-Regular.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .pop-gothic-regular {
+      font-family: 'pop-gothic regular';
+    }
+
+    /* ----- pop-gothic semi-bold ----- */
+
+    @font-face {
+      font-family: 'pop-gothic semi-bold';
+      src: url('./fonts/POP-Gothic/PopGothicCjkTc-SemiBold.woff2') format('woff2');
+      font-weight: 600;
+      font-style: normal;
+    }
+
+    .pop-gothic-semi-bold {
+      font-family: 'pop-gothic semi-bold';
+    }
+
+    /* ----- pop-gothic bold ----- */
+
+    @font-face {
+      font-family: 'pop-gothic bold';
+      src: url('./fonts/POP-Gothic/PopGothicCjkTc-Bold.woff2') format('woff2');
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    .pop-gothic-bold {
+      font-family: 'pop-gothic bold';
     }
 
   </style>
@@ -58,6 +128,21 @@
   </div>
   <div class="noto-sans">
     Font Gallery - 思源黑體
+  </div>
+  <div class="pop-gothic-extra-light">
+    Font Gallery - 大波浪圓體 極細
+  </div>
+  <div class="pop-gothic-light">
+    Font Gallery - 大波浪圓體 細
+  </div>
+  <div class="pop-gothic-regular">
+    Font Gallery - 大波浪圓體 正常
+  </div>
+  <div class="pop-gothic-semi-bold">
+    Font Gallery - 大波浪圓體 半粗
+  </div>
+  <div class="pop-gothic-bold">
+    Font Gallery - 大波浪圓體 粗
   </div>
 </body>
 </html>
